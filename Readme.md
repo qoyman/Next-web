@@ -12,7 +12,8 @@ HTML <br> CSS
 
 ## Authors
 
-👤 **Author**
+👤 **[@qoyman](https://github.com/qoyman)**
+👤 **[@biodun-ojo](https://github.com/biodun-ojo)**
 
 - GitHub: [@qoyman](https://github.com/qoyman)
 - Twitter: [@qoyman](https://twitter.com/qoyman)
