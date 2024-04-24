@@ -12,7 +12,7 @@ HTML <br> CSS
 
 ## Authors
 
-👤 **[@qoyman](https://github.com/qoyman)**
+👤 **[@qoyman](https://github.com/qoyman)** <br>
 👤 **[@biodun-ojo](https://github.com/biodun-ojo)**
 
 - GitHub: [@qoyman](https://github.com/qoyman)
