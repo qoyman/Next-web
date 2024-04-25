@@ -79,40 +79,49 @@ img {
 /* Bottom left text */
 .bottom-left {
   position: absolute;
-  bottom: 8px;
+  bottom: 50px;
   left: 16px;
   padding: 10px;
   text-align: left;
 }
 
+.bottom-left,
+h1 {
+  font-weight: bolder;
+}
+
+.bottom-left,
+p {
+  font-weight: 100;
+}
+
 /* 8 pic div css should all be here*/
-.the-8-divs{
-    display: flex;
-    flex-flow: row;
-    margin: 10px 10px 10px 10px;
+.the-8-divs {
+  display: flex;
+  flex-flow: row;
+  margin: 10px 10px 10px 10px;
 }
 
-.eight-pic-div-header{
-    font-size: 30px;
-    margin: 10px 0 20px 10px;
-    color: rgb(252, 92, 0);
-    font-weight: 900;
+.eight-pic-div-header {
+  font-size: 30px;
+  margin: 10px 0 20px 10px;
+  color: rgb(252, 92, 0);
+  font-weight: 900;
 }
 
-.the-8-divs-pics{
-    margin-right: 10px;
-    width: 80px;
-    height: 80px;
+.the-8-divs-pics {
+  margin-right: 10px;
+  width: 80px;
+  height: 80px;
 }
 
-.the-8-divs-first-p{
-    font-weight: 300;
+.the-8-divs-first-p {
+  font-weight: 300;
 }
 
-.the-8-divs-second-p{
-    color: rgb(184, 184, 184);
+.the-8-divs-second-p {
+  color: rgb(184, 184, 184);
 }
-
 
 /* for responsive websites */
 @media (min-width: 475px) {
