@@ -122,6 +122,44 @@ p {
   color: rgb(184, 184, 184);
 }
 
+/* latest fund round here */
+
+.funding-round {
+  font-size: 40px;
+  margin: 10px 0 20px 10px;
+  color: rgb(252, 92, 0);
+  font-weight: 900;
+}
+
+.fund-1-divs {
+  padding-bottom: 20px;
+}
+
+.fund-2-divs {
+  font-size: 15px;
+}
+
+.ringover {
+  margin: 10px 0 20px 10px;
+}
+
+.ring-1-divs {
+}
+
+.ring-2-divs {
+}
+
+.ring-3-divs {
+  margin: 10px 0 20px 15px;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.ring-4-divs {
+  margin: 10px 0 20px 15px;
+  font-size: 18px;
+}
+
 /* for responsive websites */
 @media (min-width: 475px) {
 }
