@@ -2,12 +2,11 @@
   padding: 0;
   margin: 0;
   font-size: 1em;
-
 }
 
 body {
-    width: 100%;
-    height: fit-content;
+  width: 100%;
+  height: fit-content;
 }
 
 header {
@@ -15,9 +14,6 @@ header {
   height: fit-content;
   position: sticky;
   top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
 }
 
 .img-2-navs {
@@ -61,28 +57,30 @@ img {
 }
 
 /* Container holding the image and the text */
-.the-first-three-img{
-    height: 800px;
+.the-first-three-img {
+  height: fit-content;
 }
 
-.pic-2, .pic-3, .pic-4{
-    width: 95%;
-    height: 200px;
-    margin: 0 10px 10px 10px;
+.pic-2,
+.pic-3,
+.pic-4 {
+  width: 95%;
+  height: 200px;
+  margin: 0 10px 10px 10px;
 }
 
 .container {
-    position: relative;
-    text-align: center;
-    color: white;
+  position: relative;
+  text-align: center;
+  color: white;
 }
-  
+
 /* Bottom left text */
 .bottom-left {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-    padding: 10px;
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  padding: 10px;
 }
 
 /* for responsive websites */
