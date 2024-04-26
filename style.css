@@ -145,16 +145,23 @@ p {
   font-size: 15px;
 }
 
+.the-class-of-4-divs{
+    width: 100vw;
+}
+
 .ringer-div,
 .Swiss-div,
-.klool-div,
-.wolf-div {
+.klook-div,
+.wolt-div {
   display: flex;
   align-items: center;
   flex-direction: column;
   background-color: rgb(255, 251, 245);
-  width: fit-content;
-  margin: 0 10px 10px 10px;
+  padding: 10px;
+}
+
+.wolt-div{
+    display: none;
 }
 
 .ringer-img,
