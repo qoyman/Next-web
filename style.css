@@ -5,14 +5,14 @@
 }
 
 @font-face {
-    font-family: "custom";
-    src: url(font/JosefinSans-VariableFont_wght.ttf) format('truetype');
+  font-family: "custom";
+  src: url(font/JosefinSans-VariableFont_wght.ttf) format("truetype");
 }
 
 body {
   width: 100%;
   height: fit-content;
-  font-family: 'custom';
+  font-family: "custom";
 }
 
 header {
@@ -145,19 +145,24 @@ p {
   font-size: 15px;
 }
 
-.ringer-div{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: rgb(255, 251, 245);
-    width: fit-content;
-    margin: 0 10px 10px 10px;
-
+.ringer-div,
+.Swiss-div,
+.klool-div,
+.wolf-div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(255, 251, 245);
+  width: fit-content;
+  margin: 0 10px 10px 10px;
 }
 
-.ringer-img{
-    width: 100%;
-    margin: 0;
+.ringer-img,
+.Swiss-img,
+.Klook-img,
+.wolf-img {
+  width: 100%;
+  margin: 0;
 }
 
 .ring-3-divs {
