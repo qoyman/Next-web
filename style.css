@@ -4,9 +4,15 @@
   font-size: 1em;
 }
 
+@font-face {
+    font-family: "custom";
+    src: url(font/JosefinSans-VariableFont_wght.ttf) format('truetype');
+}
+
 body {
   width: 100%;
   height: fit-content;
+  font-family: 'custom';
 }
 
 header {
