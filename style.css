@@ -185,6 +185,22 @@ p {
   font-size: 18px;
 }
 
+
+
+
+
+.latest-div{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.latest-div-div{
+    display: flex;
+    flex-direction: column;
+}
+
 /* for responsive websites */
 @media (min-width: 475px) {
 }
