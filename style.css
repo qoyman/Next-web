@@ -225,8 +225,13 @@ li {
 .new-second-div {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding: 10px;
+  padding: 10px; 
+}
+
+.latest-sub-sub-div {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 10px;
 }
 
 /* for responsive websites */
