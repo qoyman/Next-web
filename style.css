@@ -185,20 +185,48 @@ p {
   font-size: 18px;
 }
 
-
-
-
-
-.latest-div{
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-    justify-content: space-between;
+.next-container {
+  position: relative;
+  text-align: center;
+  color: white;
 }
 
-.latest-div-div{
-    display: flex;
-    flex-direction: column;
+.latest-div {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.latest-div-div {
+  display: flex;
+  flex-direction: column;
+  color: rgb(252, 92, 0);
+}
+
+li::marker {
+  color: red;
+}
+
+ul,
+li {
+  font-size: 15px;
+  margin: 10px 0 20px 10px;
+}
+
+.new-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: rgb(252, 92, 0);
+  padding: 10px;
+}
+
+.new-second-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 /* for responsive websites */
