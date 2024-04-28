@@ -225,13 +225,69 @@ li {
 .new-second-div {
   display: flex;
   flex-direction: row;
-  padding: 10px; 
+  padding: 10px;
 }
 
 .latest-sub-sub-div {
-    display: flex;
-    flex-direction: column;
-    padding: 0 0 0 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 10px;
+}
+
+/* Style all font awesome icons */
+
+footer {
+  background-color: rgb(53, 52, 52);
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.fa {
+  padding: 3px;
+  font-size: 10px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook,
+.fa-twitter,
+.fa-youtube,
+.fa-instagram,
+.fa-pinterest,
+.fa-rss,
+.fa-reddit {
+  background: rgb(107, 106, 106);
+  color: white;
+}
+
+.footer-div {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  justify-content: ;
+}
+
+.last-footer {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  color: white;
+  padding: 50px;
+  justify-content: center;
 }
 
 /* for responsive websites */
