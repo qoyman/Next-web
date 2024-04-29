@@ -1,14 +1,14 @@
-# NEW SCIENTIST
-> A [NewScientist Article](https://www.newscientist.com/article/2286218-ancient-lake-in-marss-gale-crater-may-have-actually-been-a-small-pond/) page clone milestone 
+# NEXT WEB
+> A [NewScientist Article](https://perma.cc/M5ZV-Q2D6/) page clone milestone 
 
-![screenshot](/images/news.png)
+![screenshot](/images/web.png)
 
 ## Built With 
 HTML <br> CSS
 
 ## Live Demo
 
-[Live Demo link](https://qoyman.github.io/New-Scientists/)
+[Live Demo link]( https://qoyman.github.io/Next-web/)
 
 ## Authors
 
@@ -22,7 +22,7 @@ HTML <br> CSS
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/qoyman/New-Scientists/issues).
+Feel free to check the [issues page](https://github.com/qoyman/Next-web/issues).
 
 ## Show your support
 
