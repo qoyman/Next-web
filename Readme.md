@@ -15,6 +15,9 @@ HTML <br> CSS
 👤 **[@qoyman](https://github.com/qoyman)** <br>
 👤 **[@biodun-ojo](https://github.com/biodun-ojo)**
 
+- GitHub: [@biodun-ojo](https://github.com/biodun-ojo)
+- Twitter: [@biodun-ojo](https://twitter.com/GeexBunny)
+
 - GitHub: [@qoyman](https://github.com/qoyman)
 - Twitter: [@qoyman](https://twitter.com/qoyman)
 
