@@ -12,7 +12,7 @@
 body {
   width: 100%;
   height: fit-content;
-  font-family: "custom";
+  font-family: "custom", Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -46,16 +46,16 @@ img {
   background-color: aqua;
   width: 50px;
   height: 50px;
-  border: 0px;
-  margin: 0%;
+  border: 0;
+  margin: 0;
 }
 
 .fall-back-nav {
   background-color: rgb(174, 0, 255);
   width: 50px;
   height: 50px;
-  border: 0px;
-  margin: 0%;
+  border: 0;
+  margin: 0;
 }
 
 .yellow-nav {
@@ -100,7 +100,7 @@ p {
   font-weight: 100;
 }
 
-/* 8 pic div css should all be here*/
+/* 8 pic div css should all be here */
 .the-8-divs {
   display: flex;
   flex-flow: row;
@@ -246,10 +246,10 @@ footer {
 }
 
 .footer-icons {
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-    width: 65%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  width: 65%;
 }
 
 .fa {
@@ -299,7 +299,7 @@ footer {
 }
 
 /* for responsive websites */
-@media (min-width: 475px) {
+/* @media (min-width: 475px) {
 }
 
 @media (min-width: 640px) {
@@ -315,4 +315,4 @@ footer {
 }
 
 @media (min-width: 1538px) {
-}
+} */
