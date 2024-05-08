@@ -209,6 +209,12 @@ p {
   font-weight: bolder;
 }
 
+ul,
+li {
+  font-size: 15px;
+  margin: 10px 0 20px 10px;
+}
+
 .list-div > li {
   border-color: rgb(175, 174, 174);
   padding-bottom: 10px;
@@ -217,12 +223,6 @@ p {
 
 li::marker {
   color: red;
-}
-
-ul,
-li {
-  font-size: 15px;
-  margin: 10px 0 20px 10px;
 }
 
 .new-div {
