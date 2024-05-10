@@ -316,6 +316,7 @@ footer {
 }
 
 .last-footer {
+  width: 90%;
   background-color: black;
   height: 150px;
   color: white;
@@ -377,6 +378,7 @@ footer {
 }
 
 /* done by tolu */
+
 @media (min-width: 1023px) {
   /* header */
   .img-2-navs {
@@ -400,6 +402,7 @@ footer {
     background-color: black;
     color: white;
     height: 50px;
+    padding-right: 40px;
   }
 
   .fisrt-black-nav,
@@ -430,7 +433,7 @@ footer {
   .fall-back-nav {
     display: none;
   }
-<<<<<<< Updated upstream
+
   /* header end */
 
   /* first div */
@@ -518,7 +521,44 @@ footer {
   }
 
   /* end of third div */
+
+  /* fourth div */
+  .major-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 50px 20px 0 20px;
+    gap: 30px;
+  }
+
+  /* end of fourth div */
+
+  /* fifth div */
+  .fifth-div-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    row-gap: 10px;
+    height: 500px;
+  }
+
+  .new-second-div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    height: 150px;
+  }
+
+  .new-second-div > img {
+    width: 100%;
+  }
+
+  .latest-sub-sub-div > h3 {
+    padding-top: 10px;
+  }
+  /* end of fifth div */
+
+  /* footer */
+
+  /* end of footer */
 }
-=======
-}
->>>>>>> Stashed changes
