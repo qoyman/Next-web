@@ -325,10 +325,60 @@ footer {
   color: rgb(212, 212, 212);
 }
 
-
-
 @media (min-width: 768px) {
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1023px) {
+  .img-2-navs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-2-navs > img {
+    display: none;
+  }
+
+  .two-nav {
+    list-style-type: none;
+  }
+
+  .black-nav {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 50px;
+  }
+
+  .fisrt-black-nav,
+  .second-black-nav {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+  }
+
+  .white-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+  }
+
+  .white-nav-list {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+  }
+
+  .search-div {
+    display: block;
+  }
+
+  .fall-back-nav {
+    display: none;
+  }
+
 }
