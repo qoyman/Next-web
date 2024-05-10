@@ -326,6 +326,9 @@ footer {
 }
 
 @media (min-width: 768px) {
+  .eight-pic-div-header {
+    margin-bottom: 24px;
+  }
 }
 
 @media (min-width: 1023px) {
