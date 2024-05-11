@@ -316,7 +316,6 @@ footer {
 }
 
 .last-footer {
-  width: 90%;
   background-color: black;
   height: 150px;
   color: white;
@@ -328,15 +327,8 @@ footer {
   color: rgb(212, 212, 212);
 }
 
-/* done by kareem */
+/* done by tolu and kareem */
 @media (min-width: 767px) {
-  
-}
-
-/* done by tolu */
-
-@media (min-width: 1023px) {
-  /* header */
   .img-2-navs {
     display: flex;
     flex-direction: column;
@@ -389,11 +381,9 @@ footer {
   .fall-back-nav {
     display: none;
   }
-
-  /* header end */
+  /* end of header*/
 
   /* first div */
-
   .the-first-three-img {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -419,14 +409,12 @@ footer {
     grid-row: 2 / 3;
   }
 
-  /* end of first div */
-
   /* second div*/
   .mega-div {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    margin: 0 30px 0 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 0 10px 0 10px;
   }
 
   .the-8-divs {
@@ -448,8 +436,6 @@ footer {
     font-weight: bolder;
   }
 
-  /* end of second div*/
-
   /* third div */
   .funding-round {
     display: flex;
@@ -469,33 +455,25 @@ footer {
 
   .the-class-of-4-divs {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
-
-  .wolt-div {
-    display: block;
-  }
-
-  /* end of third div */
 
   /* fourth div */
   .major-div {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
     padding: 50px 20px 0 20px;
     gap: 30px;
   }
 
-  /* end of fourth div */
-
   /* fifth div */
   .fifth-div-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     row-gap: 10px;
-    height: 500px;
+    height: 750px;
   }
 
   .new-second-div {
@@ -512,9 +490,49 @@ footer {
   .latest-sub-sub-div > h3 {
     padding-top: 10px;
   }
-  /* end of fifth div */
 
   /* footer */
+  .last-footer {
+    width: 87%;
+  }
 
-  /* end of footer */
+}
+
+/* done by tolu */
+
+@media (min-width: 1023px) {
+  /* second div*/
+  .mega-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 30px 0 30px;
+  }
+
+  /* third div */
+  .the-class-of-4-divs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .wolt-div {
+    display: block;
+  }
+
+  /* fourth div */
+  .major-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+  }
+
+  /* fifth div */
+  .fifth-div-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 10px;
+    height: 500px;
+  }
 }
