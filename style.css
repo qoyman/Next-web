@@ -462,8 +462,8 @@ footer {
   /* fourth div */
   .major-div {
     display: grid;
-    grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     padding: 50px 20px 0 20px;
     gap: 30px;
   }
@@ -501,8 +501,7 @@ footer {
 /* done by tolu */
 
 @media (min-width: 1023px) {
-
-  /* second div*/
+  /* second div */
   .mega-div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
