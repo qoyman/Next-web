@@ -381,7 +381,8 @@ footer {
   .fall-back-nav {
     display: none;
   }
-  /* end of header*/
+
+  /* end of header */
 
   /* first div */
   .the-first-three-img {
@@ -409,7 +410,7 @@ footer {
     grid-row: 2 / 3;
   }
 
-  /* second div*/
+  /* second div */
   .mega-div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -461,7 +462,7 @@ footer {
   /* fourth div */
   .major-div {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
     padding: 50px 20px 0 20px;
     gap: 30px;
@@ -495,12 +496,12 @@ footer {
   .last-footer {
     width: 87%;
   }
-
 }
 
 /* done by tolu */
 
 @media (min-width: 1023px) {
+
   /* second div*/
   .mega-div {
     display: grid;
@@ -524,7 +525,6 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-
   }
 
   /* fifth div */
