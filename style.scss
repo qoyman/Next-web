@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     font-size: 1em;
-  }
+  
   
   @font-face {
     font-family: "custom";
@@ -24,17 +24,32 @@
     z-index: 1;
 
     .img-2-navs {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
 
         .black-nav {
-            display: none;
-          }
+          display: none;
+        }
           
+        .white-nav{
+
           .white-nav-list {
             display: none;
           }
+
+            .search-div {
+              background-color: white;
+              width: 50px;
+              height: 50px;
+            }
+
+            .fall-back-nav {
+              background-color: white;
+              width: 50px;
+              height: 50px;
+            }
+        }        
     }
 
     .yellow-nav {
@@ -49,59 +64,59 @@
     height: 50px;
   }
   
-  .black-nav {
-    display: none;
-  }
-  
-  .white-nav-list {
-    display: none;
-  }
-  
-  .search-div {
-    background-color: white;
-    width: 50px;
-    height: 50px;
-    border: 0;
-    margin: 0;
-  }
-  
-  .fall-back-nav {
-    background-color: white;
-    width: 50px;
-    height: 50px;
-    border: 0;
-    margin: 0;
-  }
-  
+  /* first div */
   /* Container holding the image and the text */
   .the-first-three-img {
     height: fit-content;
-  }
-  
-  .pic-2,
-  .pic-3,
-  .pic-4 {
-    width: 95%;
-    height: 33vh;
-    margin: 0 10px 10px 10px;
-  }
-  
-  .container,
-  .container-1,
-  .container-2 {
-    position: relative;
-    text-align: center;
-    color: white;
+
+    .container {
+        position: relative;
+        text-align: center;
+        color: white;
+        
+        .pic-2 {
+            width: 95%;
+            height: 33vh;
+            margin: 0 10px 10px 10px;
+        }
+
+        .bottom-left {
+            position: absolute;
+            bottom: 20px;
+            left: 16px;
+            padding: 10px;
+            text-align: left;
+        }
+
+    }
+
+    .container-1 {
+        position: relative;
+        text-align: center;
+        color: white;
+
+        .pic-3{
+            width: 95%;
+            height: 33vh;
+            margin: 0 10px 10px 10px;
+        }
+
+    }
+
+    .container-2 {
+        position: relative;
+        text-align: center;
+        color: white;
+
+        .pic-4{
+            width: 95%;
+            height: 33vh;
+            margin: 0 10px 10px 10px;
+        }
+    }
   }
   
   /* Bottom left text */
-  .bottom-left {
-    position: absolute;
-    bottom: 20px;
-    left: 16px;
-    padding: 10px;
-    text-align: left;
-  }
   
   .bottom-left-header {
     font-size: 20px;
@@ -544,4 +559,4 @@
       height: 500px;
     }
   }
-   
+}
