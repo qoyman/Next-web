@@ -24,11 +24,20 @@ header {
   background-color: white;
   z-index: 1;
 }
-
-.img-2-navs {
+header .img-2-navs {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+header .img-2-navs .black-nav {
+  display: none;
+}
+header .img-2-navs .white-nav-list {
+  display: none;
+}
+header .yellow-nav {
+  text-align: center;
+  background-color: rgb(255, 208, 0);
 }
 
 img {
@@ -58,11 +67,6 @@ img {
   height: 50px;
   border: 0;
   margin: 0;
-}
-
-.yellow-nav {
-  text-align: center;
-  background-color: rgb(255, 208, 0);
 }
 
 /* Container holding the image and the text */
