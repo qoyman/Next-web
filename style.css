@@ -29,6 +29,10 @@ header .img-2-navs {
   flex-direction: row;
   justify-content: space-between;
 }
+header .img-2-navs > img {
+  width: 50px;
+  height: 50px;
+}
 header .img-2-navs .black-nav {
   display: none;
 }
@@ -37,22 +41,23 @@ header .img-2-navs .white-nav .white-nav-list {
 }
 header .img-2-navs .white-nav .search-div {
   background-color: white;
+  border: 0;
+}
+header .img-2-navs .white-nav .search-div > img {
   width: 50px;
   height: 50px;
 }
 header .img-2-navs .white-nav .fall-back-nav {
   background-color: white;
+  border: 0;
+}
+header .img-2-navs .white-nav .fall-back-nav > img {
   width: 50px;
   height: 50px;
 }
 header .yellow-nav {
   text-align: center;
   background-color: rgb(255, 208, 0);
-}
-
-img {
-  width: 50px;
-  height: 50px;
 }
 
 /* first div */
@@ -161,6 +166,7 @@ p {
 .the-class-of-4-divs .ringer-div .ringer-img {
   width: 100%;
   margin: 0;
+  height: 120px;
 }
 .the-class-of-4-divs .Swiss-div {
   display: flex;
@@ -172,6 +178,7 @@ p {
 .the-class-of-4-divs .Swiss-div .Swiss-img {
   width: 100%;
   margin: 0;
+  height: 120px;
 }
 .the-class-of-4-divs .klook-div {
   display: flex;
@@ -180,9 +187,10 @@ p {
   background-color: rgb(255, 251, 245);
   padding: 10px;
 }
-.the-class-of-4-divs .klook-div .klook-img {
+.the-class-of-4-divs .klook-div .Klook-img {
   width: 100%;
   margin: 0;
+  height: 120px;
 }
 .the-class-of-4-divs .wolt-div {
   display: none;
@@ -206,6 +214,9 @@ p {
   text-align: center;
   color: white;
 }
+.next-container .pic-4 {
+  width: 100%;
+}
 
 .latest-div {
   display: flex;
@@ -220,6 +231,10 @@ p {
 }
 .latest-div .latest-div-div > p {
   font-weight: bolder;
+}
+.latest-div > img {
+  height: 70px;
+  width: 70px;
 }
 
 ul,
@@ -339,6 +354,7 @@ footer .footer-div {
   }
   .img-2-navs .two-nav {
     list-style-type: none;
+    width: 100%;
   }
   .img-2-navs .two-nav .black-nav {
     display: block;
@@ -385,7 +401,7 @@ footer .footer-div {
     grid-column: 1/2;
     grid-row: 1/3;
   }
-  .the-first-three-img .container > img {
+  .the-first-three-img .container .pic-2 {
     height: 97%;
   }
   .the-first-three-img .container-1 {
@@ -484,8 +500,13 @@ footer .footer-div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-  .wolt-div {
+  .the-class-of-4-divs .wolt-div {
     display: block;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 251, 245);
+    padding: 10px;
   }
   /* fourth div */
   .major-div {
