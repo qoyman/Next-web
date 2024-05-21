@@ -2,9 +2,12 @@ $header-colours: rgb(252, 92, 0);
 $standard-white: white;
 
 @mixin container {
-  position: relative;
-  text-align: center;
-  color: white;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 @mixin container-pics {
@@ -61,9 +64,11 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: 50px;
 
     > img {
       @include small-img;
+      width: 100px;
     }
 
     .black-nav {
@@ -79,6 +84,7 @@ header {
       .search-div {
         background-color: $standard-white;
         border: 0;
+        height: 50px;
         
         > img {
           @include small-img;
@@ -88,6 +94,7 @@ header {
       .fall-back-nav {
         background-color: $standard-white;
         border: 0;
+        height: 50px;
         
         > img {
           @include small-img;
@@ -109,34 +116,27 @@ header {
 
   .container {
     @include container;
-      
-    .pic-2 {
-      @include container-pics;
-    }
+    background:linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 9.25)), url(images/pic-2.jpeg);
+
   }
 
   .container-1 {
     @include container;
+    background:linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 9.25)), url(images/pic-3.png);
 
-    .pic-3 {
-      @include container-pics;
-    }
   }
 
   .container-2 {
     @include container;
+    background:linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 9.25)), url(images/pic-4.jpeg);
 
-    .pic-4 {
-      @include container-pics;
-    }
   }
 }
 
 .bottom-left {
-  position: absolute;
   bottom: 20px;
   left: 16px;
-  padding: 10px;
+  padding: 100px 10px 10px 10px;
   text-align: left;
 
   .bottom-left-header {
@@ -244,10 +244,20 @@ p {
   position: relative;
   text-align: center;
   color: $standard-white;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 
-  .pic-4 {
-    width: 100%;
+
+  .next-container-left {
+  position: absolute;
+  bottom: 20px;
+  left: 16px;
+  padding: 10px 10px 10px 10px;
+  text-align: left;
   }
+
 }
 
 .latest-div {
