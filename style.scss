@@ -2,12 +2,12 @@ $header-colours: rgb(252, 92, 0);
 $standard-white: white;
 
 @mixin container {
-    margin: 10px 10px 10px 10px;
-    text-align: center;
-    color: white;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  margin: 10px 10px 10px 10px;
+  text-align: center;
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 @mixin container-pics {
@@ -68,6 +68,7 @@ header {
     > img {
       @include small-img;
       width: 100px;
+      height: 54px;
     }
 
     .black-nav {
@@ -105,6 +106,7 @@ header {
   .yellow-nav {
     text-align: center;
     background-color: rgb(255, 208, 0);
+    padding: 10px;
   }
 }
 
@@ -114,20 +116,23 @@ header {
   height: fit-content;
 
   .container {
-    @include container;
     background:linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 9.25)), url(images/pic-2.jpeg);
-
+    @include container;
+    
+    .con-top {
+      display: none;
+    }
   }
 
   .container-1 {
-    @include container;
     background:linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 9.25)), url(images/pic-3.png);
+    @include container;
 
   }
 
   .container-2 {
-    @include container;
     background:linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 9.25)), url(images/pic-4.jpeg);
+    @include container;
 
   }
 }
@@ -244,6 +249,7 @@ p {
   text-align: center;
   color: $standard-white;
   height: 200px;
+  margin: 0 10px 0 10px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -398,43 +404,51 @@ footer {
 
 /* done by tolu and kareem */
 @media (min-width: 767px) {
-  .img-2-navs {
-    display: flex;
-    flex-direction: column;
+  header {
 
-    > img {
-      display: none;
-    }
-
-    .two-nav {
-      list-style-type: none;
-      width: 100%;
-
-      .black-nav {
-        display: block;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        background-color: black;
-        color: $standard-white;
-        height: 50px;
-        padding-right: 40px;
+    .img-2-navs {
+      display: flex;
+      flex-direction: column;
+  
+      > img {
+        display: none;
       }
-
-      .white-nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        height: 50px;
-        background-color: white;
-
-        .white-nav-list {
+  
+      .two-nav {
+        list-style-type: none;
+        width: 100%;
+  
+        .black-nav {
           display: block;
           display: flex;
           flex-direction: row;
-          list-style-type: none;
+          justify-content: space-between;
+          background-color: black;
+          color: $standard-white;
+          height: 50px;
+          padding-right: 40px;
+        }
+  
+        .white-nav {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          height: 50px;
+          background-color: white;
+  
+          .white-nav-list {
+            display: block;
+            display: flex;
+            flex-direction: row;
+            list-style-type: none;
+          }
         }
       }
+    }
+
+    .yellow-nav {
+      text-align: left;
+      padding: 0 0 0 20px;
     }
   }
 
@@ -575,6 +589,36 @@ footer {
 /* done by tolu */
 
 @media (min-width: 1023px) {
+  .the-first-three-img {
+
+    .container {
+      background: linear-gradient(rgba(255, 0, 0, 0.25), rgba(0, 0, 0, 9.25)),  url(images/pic-2.jpeg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+
+      .con-top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        >img {
+          display: block;
+          width: 300px;
+          padding: 10px;
+        }
+  
+        >p {
+          display: block;
+          text-align: right;
+          padding: 10px 10px 10px 50px;
+          font-size: xx-large;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+
   /* second div */
   .mega-div {
     display: grid;

@@ -33,6 +33,7 @@ header .img-2-navs > img {
   width: 50px;
   height: 50px;
   width: 100px;
+  height: 54px;
 }
 header .img-2-navs .black-nav {
   display: none;
@@ -61,6 +62,7 @@ header .img-2-navs .white-nav .fall-back-nav > img {
 header .yellow-nav {
   text-align: center;
   background-color: rgb(255, 208, 0);
+  padding: 10px;
 }
 
 /* first div */
@@ -70,31 +72,34 @@ header .yellow-nav {
   height: fit-content;
 }
 .the-first-three-img .container {
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgb(0, 0, 0)), url(images/pic-2.jpeg);
   margin: 10px 10px 10px 10px;
   text-align: center;
   color: white;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-  background: linear-gradient(rgba(0, 0, 0, 0.25), rgb(0, 0, 0)), url(images/pic-2.jpeg);
+}
+.the-first-three-img .container .con-top {
+  display: none;
 }
 .the-first-three-img .container-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgb(0, 0, 0)), url(images/pic-3.png);
   margin: 10px 10px 10px 10px;
   text-align: center;
   color: white;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-  background: linear-gradient(rgba(0, 0, 0, 0.25), rgb(0, 0, 0)), url(images/pic-3.png);
 }
 .the-first-three-img .container-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgb(0, 0, 0)), url(images/pic-4.jpeg);
   margin: 10px 10px 10px 10px;
   text-align: center;
   color: white;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-  background: linear-gradient(rgba(0, 0, 0, 0.25), rgb(0, 0, 0)), url(images/pic-4.jpeg);
 }
 
 .bottom-left {
@@ -213,6 +218,7 @@ p {
   text-align: center;
   color: white;
   height: 200px;
+  margin: 0 10px 0 10px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -352,18 +358,18 @@ footer .footer-div {
 
 /* done by tolu and kareem */
 @media (min-width: 767px) {
-  .img-2-navs {
+  header .img-2-navs {
     display: flex;
     flex-direction: column;
   }
-  .img-2-navs > img {
+  header .img-2-navs > img {
     display: none;
   }
-  .img-2-navs .two-nav {
+  header .img-2-navs .two-nav {
     list-style-type: none;
     width: 100%;
   }
-  .img-2-navs .two-nav .black-nav {
+  header .img-2-navs .two-nav .black-nav {
     display: block;
     display: flex;
     flex-direction: row;
@@ -373,18 +379,22 @@ footer .footer-div {
     height: 50px;
     padding-right: 40px;
   }
-  .img-2-navs .two-nav .white-nav {
+  header .img-2-navs .two-nav .white-nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 50px;
     background-color: white;
   }
-  .img-2-navs .two-nav .white-nav .white-nav-list {
+  header .img-2-navs .two-nav .white-nav .white-nav-list {
     display: block;
     display: flex;
     flex-direction: row;
     list-style-type: none;
+  }
+  header .yellow-nav {
+    text-align: left;
+    padding: 0 0 0 20px;
   }
   .fisrt-black-nav,
   .second-black-nav {
@@ -499,6 +509,29 @@ footer .footer-div {
 }
 /* done by tolu */
 @media (min-width: 1023px) {
+  .the-first-three-img .container {
+    background: linear-gradient(rgba(255, 0, 0, 0.25), rgb(0, 0, 0)), url(images/pic-2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .the-first-three-img .container .con-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .the-first-three-img .container .con-top > img {
+    display: block;
+    width: 300px;
+    padding: 10px;
+  }
+  .the-first-three-img .container .con-top > p {
+    display: block;
+    text-align: right;
+    padding: 10px 10px 10px 50px;
+    font-size: xx-large;
+    font-weight: 600;
+  }
   /* second div */
   .mega-div {
     display: grid;
