@@ -67,7 +67,7 @@ header {
 
     > img {
       @include small-img;
-      
+
       width: 100px;
       height: 54px;
     }
@@ -101,7 +101,7 @@ header {
         }
       }
     }
-  
+
   }
 
   .yellow-nav {
@@ -119,7 +119,7 @@ header {
 
   .container {
     background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 9.25)), url(images/pic-2.jpeg);
-    
+
     @include container;
 
     .con-top {
@@ -129,16 +129,14 @@ header {
 
   .container-1 {
     background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 9.25)), url(images/pic-3.png);
-    
-    @include container;
 
+    @include container;
   }
 
   .container-2 {
     background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 9.25)), url(images/pic-4.jpeg);
-    
-    @include container;
 
+    @include container;
   }
 }
 
@@ -210,7 +208,7 @@ p {
   .ringer-div {
     @include four-div;
 
-    .ringer-img{
+    .ringer-img {
       @include four-div-img;
     }
   }
@@ -227,7 +225,7 @@ p {
     @include four-div;
 
     .Klook-img {
-       @include four-div-img;
+      @include four-div-img;
     }
   }
 
@@ -259,15 +257,13 @@ p {
   background-position: center;
   background-size: cover;
 
-
   .next-container-left {
-  position: absolute;
-  bottom: 20px;
-  left: 16px;
-  padding: 10px 10px 10px 10px;
-  text-align: left;
+    position: absolute;
+    bottom: 20px;
+    left: 16px;
+    padding: 10px 10px 10px 10px;
+    text-align: left;
   }
-
 }
 
 .latest-div {
@@ -410,7 +406,6 @@ footer {
 /* done by tolu and kareem */
 @media (min-width: 767px) {
   header {
-
     .img-2-navs {
       display: flex;
       flex-direction: column;
@@ -595,9 +590,8 @@ footer {
 
 @media (min-width: 1023px) {
   .the-first-three-img {
-
     .container {
-      background: linear-gradient(rgba(255, 0, 0, 0.25), rgba(0, 0, 0, 9.25)),  url(images/pic-2.jpeg);
+      background: linear-gradient(rgba(255, 0, 0, 0.25), rgba(0, 0, 0, 9.25)) ,  url(images/pic-2.jpeg);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -606,13 +600,13 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        
+
         >img {
           display: block;
           width: 300px;
           padding: 10px;
         }
-  
+
         >p {
           display: block;
           text-align: right;
@@ -639,7 +633,7 @@ footer {
 
     .wolt-div {
       display: block;
-      
+
       @include four-div;
     }
   }
