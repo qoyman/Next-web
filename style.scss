@@ -67,6 +67,7 @@ header {
 
     > img {
       @include small-img;
+      
       width: 100px;
       height: 54px;
     }
@@ -76,7 +77,6 @@ header {
     }
 
     .white-nav {
-
       .white-nav-list {
         display: none;
       }
@@ -85,7 +85,7 @@ header {
         background-color: $standard-white;
         border: 0;
         height: 50px;
-        
+
         > img {
           @include small-img;
         }
@@ -95,12 +95,13 @@ header {
         background-color: $standard-white;
         border: 0;
         height: 50px;
-        
+
         > img {
           @include small-img;
         }
       }
-    }        
+    }
+  
   }
 
   .yellow-nav {
@@ -111,27 +112,31 @@ header {
 }
 
 /* first div */
+
 /* Container holding the image and the text */
 .the-first-three-img {
   height: fit-content;
 
   .container {
-    background:linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 9.25)), url(images/pic-2.jpeg);
-    @include container;
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 9.25)), url(images/pic-2.jpeg);
     
+    @include container;
+
     .con-top {
       display: none;
     }
   }
 
   .container-1 {
-    background:linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 9.25)), url(images/pic-3.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 9.25)), url(images/pic-3.png);
+    
     @include container;
 
   }
 
   .container-2 {
-    background:linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 9.25)), url(images/pic-4.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 9.25)), url(images/pic-4.jpeg);
+    
     @include container;
 
   }
@@ -409,15 +414,15 @@ footer {
     .img-2-navs {
       display: flex;
       flex-direction: column;
-  
+
       > img {
         display: none;
       }
-  
+
       .two-nav {
         list-style-type: none;
         width: 100%;
-  
+
         .black-nav {
           display: block;
           display: flex;
@@ -428,14 +433,14 @@ footer {
           height: 50px;
           padding-right: 40px;
         }
-  
+
         .white-nav {
           display: flex;
           flex-direction: row;
           justify-content: space-between;
           height: 50px;
           background-color: white;
-  
+
           .white-nav-list {
             display: block;
             display: flex;
