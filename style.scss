@@ -66,8 +66,6 @@ body {
   justify-content: space-between;
 
   > img {
-    @include small-img;
-
     height: 70px;
     width: 70px;
   }
@@ -80,8 +78,6 @@ body {
   height: 70px;
 
   > img {
-    @include small-img;
-
     height: 70px;
     width: 70px;
   }
