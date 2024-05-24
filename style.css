@@ -157,15 +157,13 @@ p {
   font-size: 15px;
 }
 
-.the-class-of-4-divs {
-  width: 100vw;
-}
 .the-class-of-4-divs .ringer-div {
   display: flex;
   align-items: center;
   flex-direction: column;
   background-color: rgb(255, 251, 245);
   padding: 10px;
+  justify-self: center;
 }
 .the-class-of-4-divs .ringer-div .ringer-img {
   width: 100%;
@@ -178,6 +176,7 @@ p {
   flex-direction: column;
   background-color: rgb(255, 251, 245);
   padding: 10px;
+  justify-self: center;
 }
 .the-class-of-4-divs .Swiss-div .Swiss-img {
   width: 100%;
@@ -190,6 +189,7 @@ p {
   flex-direction: column;
   background-color: rgb(255, 251, 245);
   padding: 10px;
+  justify-self: center;
 }
 .the-class-of-4-divs .klook-div .Klook-img {
   width: 100%;
@@ -551,6 +551,12 @@ footer .footer-div {
     flex-direction: column;
     background-color: rgb(255, 251, 245);
     padding: 10px;
+    justify-self: center;
+  }
+  .the-class-of-4-divs .wolt-div .wolf-img {
+    width: 100%;
+    margin: 0;
+    height: 120px;
   }
   /* fourth div */
   .major-div {

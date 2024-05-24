@@ -22,6 +22,7 @@ $standard-white: white;
   flex-direction: column;
   background-color: rgb(255, 251, 245);
   padding: 10px;
+  justify-self: center;
 }
 
 @mixin four-div-img {
@@ -202,8 +203,6 @@ p {
 }
 
 .the-class-of-4-divs {
-  width: 100vw;
-
   .ringer-div {
     @include four-div;
 
@@ -634,6 +633,12 @@ footer {
       display: block;
 
       @include four-div;
+
+      .wolf-img {
+        width: 100%;
+        margin: 0;
+        height: 120px;
+      }
     }
   }
 
