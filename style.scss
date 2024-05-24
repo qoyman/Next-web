@@ -297,13 +297,6 @@ p {
       font-weight: bolder;
     }
   }
-
-  > img {
-    @include small-img;
-
-    height: 70px;
-    width: 70px;
-  }
 }
 
 ul,
@@ -336,13 +329,6 @@ li::marker {
   flex-direction: row;
   padding: 10px;
   height: 70px;
-
-  > img {
-    @include small-img;
-
-    height: 70px;
-    width: 70px;
-  }
 
   .latest-sub-sub-div {
     display: flex;
