@@ -53,6 +53,24 @@ body {
   font-family: "custom", Arial, Helvetica, sans-serif;
 }
 
+.latest-div {
+  > img {
+    @include small-img;
+
+    height: 70px;
+    width: 70px;
+  }
+}
+
+.new-second-div {
+  > img {
+    @include small-img;
+
+    height: 70px;
+    width: 70px;
+  }
+}  
+
 header {
   width: 100%;
   height: fit-content;
