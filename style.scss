@@ -54,6 +54,11 @@ body {
 }
 
 .latest-div {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: space-between;
+
   > img {
     @include small-img;
 
@@ -63,13 +68,18 @@ body {
 }
 
 .new-second-div {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  height: 70px;
+
   > img {
     @include small-img;
 
     height: 70px;
     width: 70px;
   }
-}  
+}
 
 header {
   width: 100%;
@@ -282,22 +292,16 @@ p {
   }
 }
 
-.latest-div {
+.latest-div-div {
   display: flex;
-  flex-direction: row;
-  padding: 10px;
-  justify-content: space-between;
+  flex-direction: column;
+  color: $header-colours;
 
-  .latest-div-div {
-    display: flex;
-    flex-direction: column;
-    color: $header-colours;
-
-    > p {
-      font-weight: bolder;
-    }
+  > p {
+    font-weight: bolder;
   }
 }
+
 
 ul,
 li {
@@ -324,18 +328,12 @@ li::marker {
   font-size: 20px;
 }
 
-.new-second-div {
+.latest-sub-sub-div {
   display: flex;
-  flex-direction: row;
-  padding: 10px;
-  height: 70px;
-
-  .latest-sub-sub-div {
-    display: flex;
-    flex-direction: column;
-    padding: 0 0 0 10px;
-  }
+  flex-direction: column;
+  padding: 0 0 0 10px;
 }
+
 
 /* Style all font awesome icons */
 
