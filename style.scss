@@ -281,6 +281,8 @@ p {
   }
 
   > img {
+    @include small-img;
+
     height: 70px;
     width: 70px;
   }
@@ -318,7 +320,9 @@ li::marker {
   height: 70px;
 
   > img {
-    height: inherit;
+    @include small-img;
+
+    height: 70px;
     width: 70px;
   }
 
