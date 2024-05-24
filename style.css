@@ -257,6 +257,69 @@ p {
   text-align: left;
 }
 
+#next-container-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgb(0, 0, 0)), url(images/pic-13.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#next-container-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgb(0, 0, 0)), url(images/pic-15.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#next-container-3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgb(0, 0, 0)), url(images/pic-16.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#next-container-4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgb(0, 0, 0)), url(images/pic-18.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#next-container-5 {
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgb(0, 0, 0)), url(images/pic-19.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#next-container-6 {
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgb(0, 0, 0)), url(images/pic-21.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#next-container-7 {
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgb(0, 0, 0)), url(images/pic-8.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#next-container-8 {
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgb(0, 0, 0)), url(images/pic-24.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#next-container-9 {
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgb(0, 0, 0)), url(images/pic-26.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .latest-div-div {
   display: flex;
   flex-direction: column;

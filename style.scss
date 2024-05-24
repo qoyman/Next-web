@@ -36,6 +36,12 @@ $standard-white: white;
   height: 50px;
 }
 
+@mixin id-next-container {
+  background-repeat: no-repeat; 
+  background-position: center; 
+  background-size: cover;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -290,6 +296,51 @@ p {
     padding: 10px 10px 10px 10px;
     text-align: left;
   }
+}
+
+#next-container-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 9.25)), url(images/pic-13.jpeg);
+  @include id-next-container;
+}
+
+#next-container-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 9.25)), url(images/pic-15.jpeg);
+  @include id-next-container;
+}
+
+#next-container-3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 9.25)), url(images/pic-16.jpeg);
+  @include id-next-container;
+}
+
+#next-container-4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 9.25)), url(images/pic-18.jpeg);
+  @include id-next-container;
+}
+
+#next-container-5 {
+  background:linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 9.25)), url(images/pic-19.jpeg);
+  @include id-next-container;
+}
+
+#next-container-6 {
+  background:linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 9.25)), url(images/pic-21.jpeg);
+  @include id-next-container;
+}
+
+#next-container-7 {
+  background:linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 9.25)), url(images/pic-8.jpeg);
+  @include id-next-container;
+}
+
+#next-container-8 {
+  background:linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 9.25)), url(images/pic-24.jpeg);
+  @include id-next-container;
+}
+
+#next-container-9 {
+  background:linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 9.25)), url(images/pic-26.jpeg);
+  @include id-next-container;
 }
 
 .latest-div-div {
