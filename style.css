@@ -28,7 +28,6 @@ header .img-2-navs {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 50px;
 }
 header .img-2-navs > img {
   width: 50px;
@@ -379,6 +378,7 @@ footer .footer-div {
     flex-direction: row;
     justify-content: space-between;
     height: 50px;
+    background-color: white;
   }
   .img-2-navs .two-nav .white-nav .white-nav-list {
     display: block;
@@ -408,9 +408,12 @@ footer .footer-div {
   .the-first-three-img .container {
     grid-column: 1/2;
     grid-row: 1/3;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
-  .the-first-three-img .container .pic-2 {
-    height: 97%;
+  .the-first-three-img .container .bottom-left {
+    padding-top: 320px;
   }
   .the-first-three-img .container-1 {
     grid-column: 2/3;

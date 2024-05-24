@@ -64,7 +64,6 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 50px;
 
     > img {
       @include small-img;
@@ -427,6 +426,7 @@ footer {
         flex-direction: row;
         justify-content: space-between;
         height: 50px;
+        background-color: white;
 
         .white-nav-list {
           display: block;
@@ -464,9 +464,12 @@ footer {
     .container {
       grid-column: 1 / 2;
       grid-row: 1 / 3;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
 
-      .pic-2 {
-        height: 97%;
+      .bottom-left {
+        padding-top: 320px;
       }
     }
 
